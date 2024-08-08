@@ -35,6 +35,7 @@
   .navbar-nav .nav-link {
     padding: 0.5rem 0.75rem;
     font-size: 0.9rem;
+    width: 75px !important;
   }
 
   .discount_sec{

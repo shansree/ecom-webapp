@@ -116,7 +116,7 @@ const Order = () => {
         <div className='row'>
           <div className='col-md-4 order-2'>
             <h4 className='d-flex justify-content-between align-items-center mb-3'>
-              <span>Your Cart</span>
+              <span className='mt-4 mt-sm-0'>Your Cart</span>
             </h4>
             <OrderSummary
               subtotal={Subtotal}
@@ -156,7 +156,7 @@ const Order = () => {
               </div>
 
               <div className='row'>
-                <div className='col'>
+                <div className='col-lg-4 col-sm-12 mb-sm-0  mb-3'>
                   <label htmlFor='country'>Country</label>
                   <select
                     name='country'
@@ -170,7 +170,7 @@ const Order = () => {
                     <option value='3'>Austraila</option>
                   </select>
                 </div>
-                <div className='col'>
+                <div className='col-lg-4 col-sm-12 mb-sm-0  mb-3'>
                   <label htmlFor='state'>State</label>
                   <select
                     name='state'
@@ -184,7 +184,7 @@ const Order = () => {
                     <option value='3'>Karnataka</option>
                   </select>
                 </div>
-                <div className='col mb-4'>
+                <div className='col-lg-4 col-sm-12 mb-4'>
                   <label htmlFor='zip'>Zip Code</label>
                   <input
                     type='text'

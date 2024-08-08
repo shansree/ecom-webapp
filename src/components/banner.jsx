@@ -20,8 +20,8 @@ const ImageCarousel = () => {
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
-    // autoplay: true,    
-    // autoplaySpeed: 200, 
+    autoplay: true,    
+    autoplaySpeed: 200, 
     responsive: [
       {
         breakpoint: 1024,
